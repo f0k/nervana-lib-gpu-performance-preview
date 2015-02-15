@@ -138,7 +138,7 @@ def layerwise(plot=False):
     print '  gradWeight: %s  total=%d' % (u, u.sum())
 
     print
-    print 'For comparison, cuDNN R2 reference numbers, from'
+    print 'For comparison, cuDNN R2 reference numbers for GK110, from'
     print '  https://github.com/soumith/convnet-benchmarks (accessed 2/2/15):'
     print
     print '  forward:    %s  total=%d' % (c2f, c2f.sum())
