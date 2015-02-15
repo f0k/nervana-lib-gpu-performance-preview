@@ -110,7 +110,7 @@ and update kernels.
           gradInput:  [  81.  124.   46.    5.    9.]  total=264
           gradWeight: [  58.  116.   41.    4.    9.]  total=228
 
-        For comparison, cuDNN R2 reference numbers, from
+        For comparison, cuDNN R2 reference numbers for GK110, from
         https://github.com/soumith/convnet-benchmarks (accessed 2/2/15):
 
           forward:    [  90.  218.   79.    9.   17.]  total=413
