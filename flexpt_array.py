@@ -83,7 +83,7 @@ class FlexptArray(object):
         return "FlexptArray"
 
     def __int__(self):
-        return int(selt.gpudata)
+        return int(self.gpudata)
 
     def __len__(self):
         """Return the size of the leading dimension of self."""
